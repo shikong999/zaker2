@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.wdw.fragments.WanleFragment">
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#ff2424">
+        <TextView
+            android:id="@+id/jie_textView_wan_le"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:text="玩乐"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/jie_textView_city"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="北京 "
+            android:textColor="#ffffff"
+            android:drawableRight="@mipmap/icon_flag"
+            android:background="#ff2424"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/jie_imageView_me"
+            android:layout_toStartOf="@+id/jie_imageView_me"
+            android:textSize="15dp"
+            android:gravity="center_vertical"/>
+        <ImageView
+            android:id="@+id/jie_imageView_me"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_personal_normal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:scaleType="center"
+            />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/jie_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>

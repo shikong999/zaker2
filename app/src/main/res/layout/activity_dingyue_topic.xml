@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9c9c9"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.wdw.dingyue.DingyueTopicActivity">
+
+    <ImageView
+        android:id="@+id/dingyue_topic_topImg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <ListView
+        android:id="@+id/dingyue_topic_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

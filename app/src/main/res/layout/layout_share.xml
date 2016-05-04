@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnCount="3"
+        app:rowCount="5">
+        <!-- ZAKER社区-->
+        <TextView
+            android:id="@+id/shareto_topic"
+            android:drawableTop="@mipmap/ic_article_shareto_topic"
+            android:gravity="center"
+            android:text="ZAKER社区"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+
+        <!-- 微信-->
+        <TextView
+            android:id="@+id/share_weixin"
+            android:drawableTop="@mipmap/ic_share_weixin"
+            android:gravity="center"
+            android:text="微信"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- 朋友圈-->
+        <TextView
+            android:id="@+id/share_friends"
+            android:drawableTop="@mipmap/ic_share_friends"
+            android:gravity="center"
+            android:text="朋友圈"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- 新浪微博-->
+        <TextView
+            android:id="@+id/share_sina"
+            android:drawableTop="@mipmap/ic_share_sina"
+            android:gravity="center"
+            android:text="新浪微博"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- QQ-->
+        <TextView
+            android:id="@+id/share_qq"
+            android:drawableTop="@mipmap/ic_share_qq"
+            android:gravity="center"
+            android:text="QQ"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- QQ空间-->
+        <TextView
+            android:id="@+id/share_qqzone"
+            android:drawableTop="@mipmap/ic_share_qqzone"
+            android:gravity="center"
+            android:text="QQ空间"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- QQ收藏-->
+        <TextView
+            android:id="@+id/share_qq_collect"
+            android:drawableTop="@mipmap/ic_share_qq_collect"
+            android:gravity="center"
+            android:text="QQ收藏"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- 邮箱-->
+        <TextView
+            android:id="@+id/share_email"
+            android:drawableTop="@mipmap/ic_share_email"
+            android:gravity="center"
+            android:text="邮箱"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- 印象笔记-->
+        <TextView
+            android:id="@+id/share_evernote"
+            android:drawableTop="@mipmap/ic_share_evernote"
+            android:gravity="center"
+            android:text="印象笔记"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- POCKET-->
+        <TextView
+            android:id="@+id/share_pock"
+            android:drawableTop="@mipmap/ic_share_pock"
+            android:gravity="center"
+            android:text="POCKET"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- kindle-->
+        <TextView
+            android:id="@+id/share_kindle"
+            android:drawableTop="@mipmap/ic_share_kindle"
+            android:gravity="center"
+            android:text="kindle"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- 更多分享-->
+        <TextView
+            android:id="@+id/share_more"
+            android:drawableTop="@mipmap/ic_share_more"
+            android:gravity="center"
+            android:text="更多分享"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- 举报-->
+        <TextView
+            android:id="@+id/share_report"
+            android:drawableTop="@mipmap/ic_share_report"
+            android:gravity="center"
+            android:text="举报"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- 收藏文章-->
+        <TextView
+            android:id="@+id/share_favor"
+            android:drawableTop="@mipmap/ic_share_favor"
+            android:gravity="center"
+            android:text="收藏文章"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+        <!-- 占位-->
+        <TextView
+            android:gravity="center"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="1"
+            app:layout_rowWeight="1" />
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>

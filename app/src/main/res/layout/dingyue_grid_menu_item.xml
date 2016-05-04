@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorGrey"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/dingyue_grid_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#f5bfbf"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_jinrikandian" />
+
+    <TextView
+        android:id="@+id/dingyue_grid_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:text="今日看点"
+        android:textSize="16sp" />
+</FrameLayout>

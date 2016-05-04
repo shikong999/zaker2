@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/colorWhite"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/dingyue_content_item_two"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/dingyue_topic_item_title"
+            style="@style/dingyue_content_title"
+            android:text="暂无标题" />
+
+        <TextView
+            android:id="@+id/dingyue_topic_item_auther"
+            style="@style/dingyue_content_anther"
+            android:text="无名" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/dingyue_topic_item_image"
+        android:layout_width="100dp"
+        android:visibility="gone"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop" />
+</LinearLayout>

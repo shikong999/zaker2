@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorWhite"
+    tools:context="com.example.lenovo.wdw.fragments.RedianViewPagerFragmentMine">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/colorGrey"
+        android:text="你还没有告诉我们你的阅读偏好哦~" />
+<Button
+    android:id="@+id/redian_like_mine_button"
+    android:textColor="@color/colorGrey"
+    android:layout_width="100dp"
+    android:layout_height="50dp"
+    android:text="立即添加"/>
+</LinearLayout>

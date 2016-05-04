@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9c9c9"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/colorWhite"
+    android:gravity="center_vertical"
+    android:layout_height="70dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:text="夜间模式"
+        android:textSize="15sp"/>
+    <Switch android:id="@+id/dingyue_setting_nightMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="开"
+        android:textOff="关"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="字体大小"
+            android:textSize="15sp"/>
+<SeekBar
+    android:id="@+id/dingyue_setting_textsize"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar" />
+</LinearLayout>

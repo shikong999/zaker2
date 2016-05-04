@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/colorWhite"
+    android:layout_height="60dp">
+<TextView
+    android:id="@+id/reDian_listView_itemOne_tv"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:textColor="@color/colorBlack"
+    android:text="@string/app_name"/>
+    <ImageView
+        android:id="@+id/reDian_listView_itemOne_image"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher"/>
+</LinearLayout>

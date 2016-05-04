@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.lenovo.wdw.fragments.RedianViewPagerFragmentMore">
+
+    <EditText
+        android:id="@+id/reDian_more_edit_like"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/colorGrey"
+        android:textColor="@color/colorBlack"
+        android:hint="你关注..." />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="猜你喜欢"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack" />
+        <TextView
+            android:layout_marginLeft="200dp"
+            android:id="@+id/reDian_more_tv_add"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="换一换"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/reDian_more_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2" />
+</LinearLayout>

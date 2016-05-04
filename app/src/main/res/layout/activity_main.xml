@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.wdw.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/controller"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#b1a6a6"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/dingYue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/main_radiobutton_dingyue"
+            android:gravity="center"
+            android:text="@string/app_Lower_dingYue"
+            android:textColor="@drawable/main_radiobutton_textcolor" />
+
+        <RadioButton
+            android:id="@+id/reDian"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_radiobutton_redian"
+            android:gravity="center"
+            android:text="@string/app_Lower_reDian"
+            android:textColor="@drawable/main_radiobutton_textcolor" />
+
+        <RadioButton
+            android:id="@+id/wanLe"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_radiobutton_wanle"
+            android:gravity="center"
+            android:text="@string/app_Lower_wanLe"
+            android:textColor="@drawable/main_radiobutton_textcolor" />
+
+        <RadioButton
+            android:id="@+id/sheQu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_radiobutton_shequ"
+            android:gravity="center"
+            android:text="@string/app_Lower_sheQu"
+            android:textColor="@drawable/main_radiobutton_textcolor" />
+    </RadioGroup>
+</LinearLayout>

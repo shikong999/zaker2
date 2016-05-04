@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.project01.testproject.activity.SecondActivityFenlei">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ff0000"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+       <TextView
+           android:id="@+id/fenlei"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:textColor="#ffffff"
+           android:text="分类"
+           android:textSize="20dp"
+           android:gravity="center_vertical"
+           android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView_feilei"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:numColumns="3"/>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/button_Allcity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape"
+            android:layout_weight="3"
+            android:text="北京"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
